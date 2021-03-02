@@ -29,5 +29,6 @@ COPY --from=customizedBuild /app/src ./src
 COPY --from=customizedBuild /app/next.config.js ./
 COPY --from=customizedBuild /app/cache.js ./
 COPY --from=customizedBuild /app/config ./config
+COPY --from=customizedBuild /app/customization ./customization
 EXPOSE 80
 CMD ["yarn", "start"]
