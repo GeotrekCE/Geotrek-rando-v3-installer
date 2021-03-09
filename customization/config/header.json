@@ -1,9 +1,7 @@
 {
-  "logo": "http://www.parcsnationaux.fr/sites/parcsnationaux.fr/files/thumbnails/image/embleme_500x500.jpg",
+  "logo": "https://geotrek.ecrins-parcnational.fr/Logo-Geotrek-HD.png",
   "menu": {
-    "primaryItemsNumber": 3,
-    "shouldDisplayFavorite": true,
     "supportedLanguages": ["en", "fr"],
-    "defaultLanguage": "en"
+    "defaultLanguage": "fr"
   }
 }
