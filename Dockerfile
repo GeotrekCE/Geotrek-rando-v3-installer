@@ -1,4 +1,4 @@
-ARG VERSION=latest
+ARG VERSION
 
 # ---- Get App and customize ----
 FROM ghcr.io/geotrekce/geotrek-rando-v3/geotrek-rando-prebuild:${VERSION} AS customized-prebuild
