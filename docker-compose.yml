@@ -5,11 +5,6 @@ services:
     restart: always
     ports:
       - "${PORT:-8080}:3000"
-    security_opt:
-      - seccomp:unconfined
-    device_cgroup_rules:
-      - 'c *:* rmw'
     volumes:
       - ./customization:/app/customization
       - ./media:/app/src/public/medias/
-      - /dev:/dev
