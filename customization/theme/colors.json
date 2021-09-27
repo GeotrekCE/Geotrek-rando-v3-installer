@@ -1,1 +1,6 @@
-{}
+{
+  "primary1": {
+    "DEFAULT": "#00ff00",
+    "light": "#00ff00"
+  }
+}
