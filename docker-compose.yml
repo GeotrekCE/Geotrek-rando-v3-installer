@@ -6,5 +6,5 @@ services:
     ports:
       - "${PORT:-8080}:3000"
     volumes:
-      - ./customization:/app/customization
+      - "${CUSTOMIZATION_DIRECTORY:-./customization}:/app/customization"
       - ./medias:/app/src/public/medias/
