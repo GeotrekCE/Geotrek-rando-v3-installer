@@ -7,4 +7,4 @@ services:
       - "${PORT:-8080}:3000"
     volumes:
       - "${CUSTOMIZATION_DIRECTORY:-./customization}:/app/customization"
-      - ./medias:/app/src/public/medias/
+      - "${MEDIAS_DIRECTORY:-./medias}:/app/src/public/medias/"
