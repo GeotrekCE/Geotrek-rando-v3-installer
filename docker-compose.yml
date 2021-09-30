@@ -1,0 +1,10 @@
+version: "2.3"
+services:
+  nodeserver:
+    image: ${IMAGE:-ghcr.io/geotrekce/geotrek-rando-v3/geotrek-rando:latest}
+    restart: always
+    ports:
+      - "${PORT:-8080}:3000"
+    volumes:
+      - "${CUSTOMIZATION_DIRECTORY:-./customization}:/app/customization"
+      - "${MEDIAS_DIRECTORY:-./medias}:/app/src/public/medias/"
