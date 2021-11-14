@@ -1,6 +1,11 @@
 # Changelog
 
-2.0.0 (unreleased)
+2.0.1 (2021-11-14)
+------------------
+
+* Compatible with Geotrek-rando-v3 version 3.5.0 and more, with new filters display customization
+
+2.0.0 (2021-09-30)
 ------------------
 
 * Compatible with Geotrek-rando-v3 version 3.2.0 and more.
