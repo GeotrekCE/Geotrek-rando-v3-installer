@@ -1,5 +1,11 @@
 # Changelog
 
+2.0.2 (2023-10-25)
+------------------
+
+* Add default config for `details.json` compatible since [Geotrek Rando 3.16.0](https://github.com/GeotrekCE/Geotrek-rando-v3/releases/tag/v3.16.0)
+
+
 2.0.1 (2021-11-14)
 ------------------
 
