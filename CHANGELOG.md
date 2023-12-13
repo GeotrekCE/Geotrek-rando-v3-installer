@@ -1,5 +1,10 @@
 # Changelog
 
+2.0.3 (2023-10-13)
+------------------
+
+* Add loading lazy attributes to forecastWidget iframe (#8)
+
 2.0.2 (2023-10-25)
 ------------------
 
